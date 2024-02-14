@@ -1,0 +1,6 @@
+@media (max-width: 375px) {
+  div.box {
+    width: 72%;
+    left: 8%;
+  }
+}

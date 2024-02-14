@@ -1,0 +1,35 @@
+div.box {
+  background-color: hsl(0, 0%, 12%);
+  width: 300px;
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 6px;
+  color: #f1f1f1;
+}
+div.box > h4 {
+  color: yellow;
+}
+div.box > div.icon > img {
+  border-radius: 90px;
+  width: 30%;
+}
+div.box > nav {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+div.box > nav > a {
+  text-decoration: none;
+  color: white;
+  background-color: hsl(0, 0%, 20%);
+  padding: 12px;
+  border-radius: 12px;
+}
+div.box > nav > a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
